@@ -22,17 +22,15 @@ ____            _   _ _            _ _____ _  __
 
 
 ```
-apt install python
-apt install python2
-pkg install pip
-pip install Beautifulsoup4
-pip install requests
 git clone https://gitee.com/sansjtw/reptile
+cd reptile
+chmod +x 安装
+./安装
 
 ```
 
 
-#### 使用说明
+#### 使用说明(先完成安装教程)
 
 
 ```
