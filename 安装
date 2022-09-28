@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "欢迎你的使用Reptile！该脚本进程如下↓使用该脚本安装所有的依赖后，下次使用直接命令 python xx.py 或 python reptile/xx.py"
+echo "换国内源→更新源→下载git→下载python→下载python2→下载python3→安装Beautifulsoup4库→安装requests库→安装datetime库→进入Reptile"
+	if [ -d /data/data/com.termux/files/usr/etc/termux/mirrors/china ]; then
+	rm -rf /data/data/com.termux/files/usr/etc/termux/chosen_mirrors
+	ln -s /data/data/com.termux/files/usr/etc/termux/mirrors/china /data/data/com.termux/files/usr/etc/termux/chosen_mirrors
+	fi
+	sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && yes | pkg update 
+	sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && pkg update
+
+echo `pkg install git`
+echo `pkg install python`
+echo `pkg install python2`
+echo `pkg install python3`
+echo `pip install Beautifulsoup4`
+echo `pip install requests`
+echo `pip install datetime`
+echo ""
+echo ""
+echo "安装依赖完成！请手动输入命令 python xx.py 或 python reptile/xx.py 之后你也可以不用运行该脚本，因为该脚本只是用于安装依赖，并非直接运行Reptile！"
+echo ""
+read -r -p "按回车键返回" input
+exit
+
+                                  
