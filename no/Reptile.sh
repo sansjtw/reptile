@@ -36,6 +36,6 @@ echo ""
 echo "安装依赖和下载完成！请自行手动输入命令 cd&&cd reptile&&python xx.py 之后你也可以不用运行该脚本，因为该脚本只是用于安装依赖，并非直接运行Reptile！"
 echo ""
 read -r -p "按回车键返回" input
-exit
+
 
                                   
