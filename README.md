@@ -22,10 +22,12 @@ ____            _   _ _            _ _____ _  __
 建议使用:
 
 ```
+apt install curl
 bash -c "$(curl https://gitee.com/sansjtw/reptile/raw/master/no/Reptile.sh)"
 ```
 或者(可能会提示错误！包括最左边的一个点也复制):
 ```
+apt install curl
 . <(curl -L gitee.com/sansjtw/reptile/raw/master/no/Reptile.sh)
 ```
 
