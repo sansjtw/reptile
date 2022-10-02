@@ -91,7 +91,7 @@ python xx.py
 
 [18]whois
 
-[21]wget下载器
+[19]wget下载器
 
 [20]关于工具和如何使用？
 
