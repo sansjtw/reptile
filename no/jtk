@@ -1,6 +1,6 @@
 服务器连接成功！欢迎使用Reptile (An Reptile)
 创作者:金条k 
-更新内容: 更新可在Reptile中更新工具，更改了一些编号，版本号为1.5！
+更新内容:更新了An Reptile软件1.1分布安装功能，版本号为1.5
 可使用以下命令更新:
 cd&&rm -frv reptile&&git clone https://gitee.com/sansjtw/reptile/ &&cd reptile&&python xx.py
 或在脚本中输入: sans
