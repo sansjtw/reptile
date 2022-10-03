@@ -46,7 +46,7 @@ print ("\033[1;34;40m ")
 print("正在加载中…")
 jtk = requests.get('https://gitee.com/sansjtw/reptile/raw/master/no/jtk')
 print(jtk.text)
-
+print("")
 tq = requests.get('https://api.vvhan.com/api/weather')
 print(tq.text)
 print(" ")
