@@ -1,7 +1,7 @@
 # Reptile
 
 #### 最近更新
-优化进入方式，消灭了使用DDOS工具时npm下载报错，版本号更为1.5
+更新可在Reptile中更新工具，更改了一些编号，版本号为1.5
 
 
 #### 介绍
@@ -95,12 +95,13 @@ python xx.py
 
 [19]wget下载器
 
-[20]关于工具和如何使用？
+[help]关于工具和如何使用？
 
-[21]退出
+[exit]退出
 
-[22]查看日志
+[look]查看日志
 
+[sans]更新Reptile
 
 [Reptile](https://aad.tw/q7ad)
 
