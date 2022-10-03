@@ -58,16 +58,7 @@ Note=open("use/Reptile.txt",mode='a')
 Note.write('时间:['+other_StyleTime)
 Note.write(']---root用户进入了选择页\n')
 Note.close()
-print ("\033[1;33;40m ")
-number = 161922
-guess = -1
-print("密码")
-while guess != number:
-    guess = int(input("请输入密码："))
-    if guess == number:
-        print("密码正确")
-    elif guess != number:
-        print("密码错误")
+print ("\033[1;33;40]")
 print("\n\n请输入你要干什么？")
 
 ssl = input("\n[1]获取网页源码\n[2]网页图片源码搜索（测试阶段，不一定100%搜索到图片）\n[3]爬取网页图片\n[4]破解微信小游戏羊了个羊（成功率较低）\n[5]百度翻译\n[6]DOS压力攻击\n[7]ping（可用于寻查网站ip）\n[8]nmap（端口扫描器）\n[9]DDOS攻击 --rudyjs\n[10]w3m浏览器\n[11]Q绑查询\n[12]ip地址查询\n[13]短链接生成\n[14]手机号归属地查询\n[15]域名注册查询\n[16]信息轰炸1.0\n[17]多线程压力攻击\n[18]whois（网站信息查询）\n[19]wget下载器\n[20]关于工具和如何使用？\n[21]退出\n[22]查看日志\n\n请选择（填数字）: ")
