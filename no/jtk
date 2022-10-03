@@ -1,6 +1,7 @@
 服务器连接成功！欢迎使用Reptile (An Reptile)
 创作者:金条k
 更新内容:
-优化进入方式，消灭了使用DDOS工具时npm下载报错，版本号为1.5！
+更新可在Reptile中更新工具，更改了一些编号，版本号为1.5！
 可使用以下命令更新:
 cd&&rm -frv reptile&&git clone https://gitee.com/sansjtw/reptile/ &&cd reptile&&python xx.py
+或在脚本中输入: sans
