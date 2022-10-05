@@ -1,6 +1,6 @@
 服务器连接成功！欢迎使用Reptile (An Reptile)
 创作者:金条k 
-更新内容:更新了An Reptile软件1.2更新网络检测、VPN检测等，版本号为1.5！
+更新内容:更新了An Reptile软件1.2更新网络检测、抓包检测等，版本号为1.5！
 可使用以下命令更新:
 cd&&rm -frv reptile&&git clone https://gitee.com/sansjtw/reptile/ &&cd reptile&&python xx.py
 或在脚本中输入: sans
