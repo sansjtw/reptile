@@ -1,7 +1,7 @@
 # Reptile
 
 #### 最近更新
-更新了An Reptile软件1.1分布安装功能，版本号为1.5
+更新了An Reptile软件1.2更新网络检测、VPN检测等，版本号为1.5
 
 
 #### 介绍
@@ -17,7 +17,7 @@ ____            _   _ _            _ _____ _  __
 |_| \_\___| .__/ \__|_|_|\___|  \___/  |_| |_|\_\                                                          
 |_|
 ```
-Reptile安装器APP[密码:6bdf](https://wwz.lanzoum.com/iHx5V0d12c6f)
+Reptile安装器APP[密码:3dgy](https://wwz.lanzoum.com/iK2Cb0d95t7e)
 #### 快捷安装
 建议使用:
 
