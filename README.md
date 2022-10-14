@@ -58,6 +58,8 @@ python xx.py
 [手机版下载](https://wwz.lanzoum.com/isd3S0dv2nd)
 ```
 密码:eanq
+
+[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.0.apk)
 ```
 
 
