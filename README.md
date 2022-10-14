@@ -1,7 +1,7 @@
 # Reptile
 
 #### 最近更新
-更新迷你sj邮箱信息轰炸功能，版本号更为1.6
+Reptile安卓版研发完成！可下载了！！，版本号更为1.6
 
 
 #### 介绍
@@ -58,9 +58,8 @@ python xx.py
 [手机版下载](https://wwz.lanzoum.com/isd3S0dv2nd)
 ```
 密码:eanq
-
-[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.0.apk)
 ```
+[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.0.apk)
 
 
 
