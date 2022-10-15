@@ -1,7 +1,7 @@
 # Reptile
 
 #### 最近更新
-Reptile安卓版更新，优化和添加更多功能，版本号更为1.6
+Reptile安卓版更新，添加更多功能，版本号更为1.6
 
 
 #### 介绍
@@ -55,11 +55,11 @@ python xx.py
 
 #### 手机版
 
-[手机版下载](https://wwz.lanzoum.com/iAunb0dw1n8d)
+[手机版下载](https://wwz.lanzoum.com/iGVia0dx8hfc)
 ```
-密码:b10k
+密码:7mdd
 ```
-[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.0.apk)
+[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.2.apk)
 
 
 
