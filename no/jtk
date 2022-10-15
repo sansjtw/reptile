@@ -1,6 +1,6 @@
 服务器连接成功！欢迎使用Reptile (An Reptile)
 创作者:金条k 
-更新内容: Reptile安卓版更新，优化和添加更多功能，版本号更为1.6
+更新内容: Reptile1.2安卓版更新，添加更多功能，版本号更为1.6
 可使用以下命令更新:
 cd&&rm -frv reptile&&git clone https://gitee.com/sansjtw/reptile/ &&cd reptile&&python xx.py
 或在脚本中输入: sans
