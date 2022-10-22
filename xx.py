@@ -177,6 +177,7 @@ if ssl in ["9"]:
     
     if c in ["2"]: 
        print("请确保你在安装依赖中安装了npm！如果没有，使用命令 pip install npm 手动安装")
+       os.system('pkg install nodejs')
        os.system('npm install -g rudyjs')
        os.system('python use/10.py')
        now = datetime.datetime.now()
