@@ -55,11 +55,7 @@ python xx.py
 
 #### 手机版
 
-[手机版下载](https://wwz.lanzoum.com/iGVia0dx8hfc)
-```
-密码:7mdd
-```
-[一按下载](https://gitee.com/sansjtw/reptile/raw/master/Reptile%20JTK_1.2.apk)
+[手机版下载](http://tool.bitefu.net/lanzou/?url=https://wwz.lanzoum.com/iHptE0egppri&type=down&pwd=57bu)
 
 
 
